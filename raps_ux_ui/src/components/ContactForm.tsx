@@ -2,9 +2,9 @@ import React from 'react';
 
 const ContactForm: React.FC = () => {
   return (
-    <div className="bg-white shadow-md p-4">
-      {/* Contact form */}
-    </div>
+    <section>
+      Contenido del formulario de contacto
+    </section>
   );
 };
 

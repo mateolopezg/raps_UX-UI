@@ -1,15 +1,15 @@
 import React from 'react';
 import Header from './Header';
 import CarouselItem from './CarouselItem';
-import Footer from './ContactForm';
+import { Link } from 'react-router-dom';
 
 const Home: React.FC = () => {
   return (
-    <div>
+    <section>
       <Header />
       <CarouselItem />
-      <Footer />
-    </div>
+      <Link to="/contact">Go to Contact Form</Link>
+    </section>
   );
 };
 

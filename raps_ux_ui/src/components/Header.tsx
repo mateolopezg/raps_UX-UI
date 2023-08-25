@@ -1,5 +1,6 @@
 // Header.tsx
 import { Link } from "react-router-dom";
+import LanguageSwitcher from "./LanguageSwitcher";
 import "./Home.css";
 
 const Header: React.FC = () => {
@@ -11,19 +12,20 @@ const Header: React.FC = () => {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/about">About</Link>
+            <Link to="/about">Sobre Nosotros</Link>
           </li>
           <li>
             <Link to="/products">Products</Link>
           </li>
-          <li>
+          {/* <li>
             <Link to="/social-media">Social Media</Link>
-          </li>
+          </li> */}
           <li>
             <Link to="/contact">Contact</Link>
           </li>
         </ul>
       </nav>
+      <aside><LanguageSwitcher/></aside>
     </>
   );
 };

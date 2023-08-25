@@ -6,9 +6,9 @@ const About: React.FC = () => {
   const { t } = useTranslation();
 
   return (
-    <section className="bg-gray-100 py-12">
-      <div className="container mx-auto">
-        <h2 className="text-3xl font-semibold text-center mb-6">
+    <section className="bg-gray-100 py-12 my-20 m-5">
+      <div className="container mx-auto font-semibold">
+        <h2 className="text-3xl  text-center mb-6">
           {t("about.title")}
         </h2>
         <p className="text-center text-gray-700 leading-relaxed">

@@ -1,25 +1,26 @@
-// components/About.tsx
 import React from "react";
+import { images } from "../utils/images";
 import { useTranslation } from "react-i18next";
 
 const About: React.FC = () => {
   const { t } = useTranslation();
+  let imageUrl = `url(${images[0].urls})`;
 
   return (
-    <section className="bg-gray-100 py-12 my-20 m-5">
-      <div className="container mx-auto font-semibold">
-        <h2 className="text-3xl  text-center mb-6">
-          {t("about.title")}
-        </h2>
-        <p className="text-center text-gray-700 leading-relaxed">
-          {t("about.description1")}
-        </p>
-        <p className="text-center text-gray-700 leading-relaxed mt-4">
-          {t("about.description2")}
-        </p>
-        <p className="text-center text-gray-700 leading-relaxed mt-4">
-          {t("about.description3")}
-        </p>
+    <section
+      className="hero min-h-screen"
+      style={{
+        backgroundImage: imageUrl,
+      }}
+    >
+      <div className="hero-overlay bg-opacity-60"></div>
+      <div className="hero-content text-center text-neutral-content">
+        <div className="max-w-md">
+          <h1 className="mb-5 text-5xl font-bold">{t("about.title")}</h1>
+          <p className="mb-5">{t("about.description1")}</p>
+          <p className="mb-5">{t("about.description2")}</p>
+          <p className="mb-5">{t("about.description3")}</p>
+        </div>
       </div>
     </section>
   );

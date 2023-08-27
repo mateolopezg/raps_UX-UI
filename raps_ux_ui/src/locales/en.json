@@ -1,6 +1,16 @@
 {
+  "contactForm.title": "Contact Us",
+  "contactForm.name": "Name",
+  "contactForm.email": "Email",
+  "contactForm.message": "Message",
+  "contactForm.button": "Send Message",
+  "contactForm.name.error": "Please enter your name",
+  "contactForm.email.error": "Please enter your email.",
+  "contactForm.email.error.valid": "Please enter a valid email address.",
+  "contactForm.message.error": "Please enter your message.",
+
   "products.title.card": "Pots and plants!",
-  "products.title.button": "Buy Now",
+  "products.title.button": "Add to cart",
   "products.title.description": "Discover our carefully curated collection of pots and plants, perfect for bringing life and style to your spaces. Each piece is unique and designed to bring beauty and freshness to your home or workplace.",
 
   "about.title": "About Us",

@@ -16,10 +16,10 @@ const About: React.FC = () => {
       <div className="hero-overlay bg-opacity-60"></div>
       <div className="hero-content text-center text-neutral-content">
         <div className="max-w-md">
-          <h1 className="mb-5 text-5xl font-bold">{t("about.title")}</h1>
-          <p className="mb-5">{t("about.description1")}</p>
-          <p className="mb-5">{t("about.description2")}</p>
-          <p className="mb-5">{t("about.description3")}</p>
+          <h1 className="mb-5 text-5xl font-bold text-gray-100">{t("about.title")}</h1>
+          <p className="mb-5 font-semibold text-gray-100">{t("about.description1")}</p>
+          <p className="mb-5 font-semibold text-gray-100">{t("about.description2")}</p>
+          <p className="mb-5 font-semibold text-gray-100">{t("about.description3")}</p>
         </div>
       </div>
     </section>

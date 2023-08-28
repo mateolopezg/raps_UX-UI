@@ -30,6 +30,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ setCartCount }) => {
           <div className="card-body">
             <h2 className="card-title">{t("products.title.card")}</h2>
             <p>{t("products.title.description")}</p>
+            <p className="text-green-600 font-semibold">${image.price.toFixed(2)}</p> {/* Muestra el precio */}
             <div className="card-actions justify-end">
               <button className="btn btn-primary" onClick={addToCart}>
                 {t("products.title.button")}

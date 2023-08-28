@@ -42,7 +42,7 @@ const ContactForm: React.FC = () => {
     }
   
     if (name && email && message && !emailError) {
-      alert("Hola");
+      alert("Mensaje enviado !!");
     }
   };
   

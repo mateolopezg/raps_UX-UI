@@ -4,12 +4,15 @@ import LanguageSwitcher from "./LanguageSwitcher";
 import image from "../assets/logo-planter.png";
 import "./Home.css";
 import CartIcon from "./CartIcon"; // Importa el componente CartIcon
+import { useTranslation } from "react-i18next";
 
 interface HeaderProps {
   cartCount: number; // Define la prop cartCount en el tipo HeaderProps
 }
 
 const Header: React.FC<HeaderProps> = ({ cartCount }) => {
+  const { t } = useTranslation();
+
   return (
     <>
       <nav className="navbar bg-base-100 fixed top-0 z-50">
@@ -39,16 +42,16 @@ const Header: React.FC<HeaderProps> = ({ cartCount }) => {
                 <Link to="/">Home</Link>
               </li>
               <li>
-                <Link to="/about">Sobre Nosotros</Link>
+                <Link to="/about">{t("menu.about")}</Link>
               </li>
               <li>
-                <Link to="/products">Products</Link>
+                <Link to="/products">{t("menu.products")}</Link>
               </li>
               {/* <li>
             <Link to="/social-media">Social Media</Link>
           </li> */}
               <li>
-                <Link to="/contact">Contact</Link>
+                <Link to="/contact">{t("menu.contact")}</Link>
               </li>
             </ul>
           </div>

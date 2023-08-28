@@ -1,4 +1,8 @@
 {
+  "menu.about": "About us",
+  "menu.products": "Products",
+  "menu.contact": "Contact",
+
   "contactForm.title": "Contact Us",
   "contactForm.name": "Name",
   "contactForm.email": "Email",
@@ -12,6 +16,8 @@
   "products.title.card": "Pots and plants!",
   "products.title.button": "Add to cart",
   "products.title.description": "Discover our carefully curated collection of pots and plants, perfect for bringing life and style to your spaces. Each piece is unique and designed to bring beauty and freshness to your home or workplace.",
+
+  "products.title.details": "Details",
 
   "about.title": "About Us",
   "about.description1": "We are a venture passionate about nature and creativity. Our journey began in the beautiful commune of Macul, where we decided to bring the beauty of flowers and nature to every home. From unique floral arrangements to customized cacti and planters, our mission is to fill every corner of your life with vitality and color.",

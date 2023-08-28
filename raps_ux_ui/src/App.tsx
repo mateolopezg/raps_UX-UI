@@ -7,6 +7,7 @@ import Header from "./components/Header";
 import About from "./components/About";
 import ProductCard from "./components/ProductCard";
 import { useState } from "react";
+import Footer from "./components/Footer";
 
 function App() {
   const [cartCount, setCartCount] = useState<number>(0); // Estado para el contador del carrito
@@ -23,6 +24,7 @@ function App() {
           element={<ProductCard setCartCount={setCartCount} />} // Pasa la función para actualizar el contador
         />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }

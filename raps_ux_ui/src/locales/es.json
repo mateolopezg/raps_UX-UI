@@ -1,4 +1,8 @@
 {
+  "menu.about": "Sobre Nosotros",
+  "menu.products": "Productos",
+  "menu.contact": "Contactanos",
+
   "contactForm.title": "Contáctenos",
   "contactForm.name": "Nombre",
   "contactForm.email": "Correo electrónico",
@@ -12,6 +16,8 @@
   "products.title.card": "Macetas y plantas!",
   "products.title.button": "Añadir al carrito",
   "products.title.description": "Descubre nuestra cuidadosamente elegida colección de macetas y plantas, perfecta para dar vida y estilo a tus espacios. Cada pieza es única y diseñada para aportar belleza y frescura a tu hogar o lugar de trabajo.",
+
+  "products.title.details": "Ver Detalles",
 
   "about.title": "Acerca de Nosotros",
   "about.description1": "Somos un emprendimiento apasionado por la naturaleza y la creatividad. Nuestra historia comenzó en la hermosa comuna de Macul, donde decidimos llevar la belleza de las flores y la naturaleza a cada hogar. Desde arreglos florales únicos hasta cactus y maceteros personalizados, nuestra misión es llenar de vida y color cada rincón de tu vida.",

@@ -1,5 +1,6 @@
 // CartIcon.tsx
 import React from "react";
+// @ts-ignore
 import FeatherIcon from "feather-icons-react";
 
 interface CartIconProps {

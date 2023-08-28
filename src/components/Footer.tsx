@@ -1,4 +1,5 @@
 import React from "react";
+// @ts-ignore
 import FeatherIcon from "feather-icons-react";
 
 const Footer: React.FC = () => {
